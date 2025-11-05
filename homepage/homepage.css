@@ -1,0 +1,102 @@
+.top-design{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: plum;
+    flex-wrap: wrap;
+    border-radius: 50;
+}
+.logo{
+    font-weight: bold;
+    font-size: larger ;
+    
+}
+.menu span{
+    
+    margin-left: 20px;
+    font-weight: lighter;
+}
+.header{
+    width: 100%;
+    font-weight: 50%;
+    font-size: xx-large;
+    font-weight: bolder;
+    
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+
+.model-image img{
+    
+    height: 80%;
+    width: 200%;
+    margin-top: 80%;
+}
+#shop-button{
+    padding: 14px 30px;
+    margin-top: 0%;
+    border: 2px solid black;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    
+}
+#shop-button:hover{
+    background-color: black;
+    color: white;
+}
+.middle-design{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    gap: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+.middle-design button{
+    padding: 14px 30px;
+    border-radius: none;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+     cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.middle-design button:hover{
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+
+}
+.photo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin: 0 15px;
+    font-size: medium;
+}
+.menu a:hover{
+    color: crimson;
+}
+
+   
+    
+

@@ -1,0 +1,47 @@
+.whole-lookbook{
+    background-color: lightpink;
+    width: 100%;
+}
+.header{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    padding-top: 20px;
+
+}
+.outfit-type{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+}
+.outfit{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    width: 48%;
+    height: 600px;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+.outfit img{
+   
+    height: 100%;
+    width: 100%;
+ 
+}
+
+.caption{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 12px 0;
+    font-size: 18px;
+
+}
